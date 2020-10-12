@@ -1,0 +1,210 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+nav{
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+nav > h2{
+  padding-right: 15px;
+}
+nav > ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  
+}
+ul > li > a{ 
+  text-decoration: none; 
+  color: black;
+  padding: 0 15px;
+}
+.banner{
+  background-image: url("/images/banner.jpg");
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto 40px;
+}
+/* ---------- */
+.material-container{
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.material-container > .material-item{
+  width: 30%;
+  text-align: center;
+}
+.material-container > .material-item > .material-icon{
+  font-size: 50px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.material-container > .material-item > h3{
+  font-weight: 900;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.material-container > .material-item > p{
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  line-height: 1.7em;
+}
+/* ------------ */
+.products-container{
+  max-width: 1200px;
+  margin: 0 auto 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.products-container > .products-pic{
+  width: 32%;
+  height: 250px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4)
+}
+.pic1{
+  background-image: url("/images/guitar.jpg");
+}
+.pic2{
+  background-image: url("/images/piano.jpg");
+}
+.pic3{
+  background-image: url("/images/ukulele.jpg");
+}
+.pic4{
+  background-image: url("/images/drum.jpg");
+}
+.pic5{
+  background-image: url("/images/speaker.jpg");
+}
+.pic6{
+  background-image: url("/images/bass.jpg");
+}
+.products-container > .products-pic > .products-text{
+  height: 100%;
+  position: relative;
+  background-color: rgba(0,0,0,.4);
+  opacity: 0;
+  transform: scale(0);
+  transition: .5s
+}
+.products-container > .products-pic:hover .products-text{
+  opacity: 1;
+  transform: scale(1);
+  border-radius: 10px;
+}
+.products-container > .products-pic > .products-text > h3{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  color: #fff;
+}
+/* ------------ */
+.coupon{
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  padding: 15px;
+  position: relative;
+  background-color: #ffeadb;
+ 
+}
+.coupon > h3,p{
+  display: inline;
+  line-height: 1.7em;
+}
+.coupon > .coupon-btn{
+  position: absolute;
+  padding: 10px 80px; 
+  background-color: #616161;
+  color: white;
+  right: 15px;
+  top: 50%;
+  transform: translate(0%,-50%);
+  border-radius: 5px;
+  font-size: 16px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+/* ------------- */
+.band {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+  height: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  position: relative;
+}
+.band > .band-pic{
+  width: 49%;
+  height: 380px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.img1{
+  background-image: url("https://blow.streetvoice.com/wp-content/uploads/2020/08/104458138_3601638743197782_3525416724043401637_o.jpg");
+}
+.img2{
+  background-image: url("/images/event.jpg");
+  position: relative;
+  top: -100px;
+}
+.band > .band-text{
+  width: 49%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edc988;
+}
+.band > .band-text > .white-line{
+  padding: 15px 10px;
+  line-height: 2.5em;
+  text-align: center;
+  letter-spacing: 2.5px;
+}
+.band > .band-text > .white-line > h2{
+  font-weight: 900;
+}
+.band > .band-text > .white-line > .band-btn{
+  padding: 5px 30px; 
+  background-color: #616161;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}
+/* -------------------- */
+.footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px 0;
+  line-height: 35px;
+  background-color: #EEEEEE;
+}
+.footer > .footer-icon{
+  font-size: 30px;
+  padding: 0 10px;
+}
+

@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 微軟正黑體;
+}
+nav{
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+nav > h2{
+  padding-right: 15px;
+}
+nav > ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  
+}
+ul > li > a{ 
+  text-decoration: none; 
+  color: black;
+  padding: 0 15px;
+}
+.banner{
+  background-image: url("/images/banner.jpg");
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto 40px;
+}
+/* --------------*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.container > .item{
+  width: 32%;
+  box-shadow: 0 0 5px #757575;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+.container > .item > img{
+  width: 100%;
+  height: 260px;
+}
+.container > .item > h3{
+  padding: 10px 0 10px 15px;
+}
+.container > .item > .title{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.container > .item > .content{
+  padding: 15px;
+  word-break: break-all;
+}
+.container > .item > span{
+  font-size: 20px;
+  font-weight: 900;
+}
+.container > .item > .price{
+  padding-left: 15px;
+  text-decoration: line-through;
+}
+.container > .item > .price-discount{
+  color: red;
+  position: absolute;
+  right: 15px
+}
+.container > .item > .add_car{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 6px 0;
+  color: #757575;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.container > .item > .add_car:hover{
+  background-color: #A5D6A7;
+  color: #fff;
+}
+/* -------------------- */
+.footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 35px 0;
+  line-height: 35px;
+  background-color: #EEEEEE;
+}
+.footer > .footer-icon{
+  font-size: 30px;
+  padding: 0 10px;
+}
