@@ -20,9 +20,9 @@ let products=[
     incart: 0, 
   },
   {
-    name: "drum",
+    name: "drums",
     price: 45000,
-    tag: "drum",
+    tag: "drums",
     incart: 0, 
   },
   {
