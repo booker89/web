@@ -5,17 +5,14 @@
   font-family: 微軟正黑體;
 }
 nav{
-  /* border: 1px solid red; */
   display: flex;
   max-width: 1200px;
   margin: 20px auto;
 }
 nav > h2{
-  /* border: 1px solid red; */
   padding-right: 15px;
 }
 nav > ul{
-  /* border: 1px solid red; */
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -24,11 +21,10 @@ nav > ul{
 ul > li > a{ 
   text-decoration: none; 
   color: black;
-  /* border: 1px solid pink; */
   padding: 0 15px;
 }
 .banner{
-  background-image: url("/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   max-width: 1200px;
   height: 400px;
   margin: 0 auto 40px;

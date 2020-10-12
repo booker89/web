@@ -24,7 +24,7 @@ ul > li > a{
   padding: 0 15px;
 }
 .banner{
-  background-image: url("/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   max-width: 1200px;
   height: 400px;
   margin: 0 auto 40px;
@@ -76,22 +76,22 @@ ul > li > a{
   box-shadow: 0px 0px 10px rgba(0,0,0,0.4)
 }
 .pic1{
-  background-image: url("/images/guitar.jpg");
+  background-image: url("images/guitar.jpg");
 }
 .pic2{
-  background-image: url("/images/piano.jpg");
+  background-image: url("images/piano.jpg");
 }
 .pic3{
-  background-image: url("/images/ukulele.jpg");
+  background-image: url("images/ukulele.jpg");
 }
 .pic4{
-  background-image: url("/images/drum.jpg");
+  background-image: url("images/drum.jpg");
 }
 .pic5{
-  background-image: url("/images/speaker.jpg");
+  background-image: url("images/speaker.jpg");
 }
 .pic6{
-  background-image: url("/images/bass.jpg");
+  background-image: url("images/bass.jpg");
 }
 .products-container > .products-pic > .products-text{
   height: 100%;
@@ -160,10 +160,10 @@ ul > li > a{
   margin-bottom: 20px;
 }
 .img1{
-  background-image: url("https://blow.streetvoice.com/wp-content/uploads/2020/08/104458138_3601638743197782_3525416724043401637_o.jpg");
+  background-image: url("images/event.jpg");
 }
 .img2{
-  background-image: url("/images/event.jpg");
+  background-image: url("images/event.jpg");
   position: relative;
   top: -100px;
 }

@@ -39,7 +39,7 @@ ul > li > a{
 }
 .show1-container > .show1-left{
   width: 49%;
-  background-image: url("https://blow.streetvoice.com/wp-content/uploads/2020/08/104458138_3601638743197782_3525416724043401637_o.jpg");
+  background-image: url("images/event.jpg");
   height: 520px;
   background-position: center;
   background-size: cover;
@@ -69,16 +69,16 @@ ul > li > a{
   bottom: 0;
 }
 .pic1{
-  background-image: url("/images/01.jpg");
+  background-image: url("images/01.jpg");
 }
 .pic2{
-  background-image: url("/images/02.jpg");
+  background-image: url("images/02.jpg");
 }
 .pic3{
-  background-image: url("/images/03.jpg");
+  background-image: url("images/03.jpg");
 }
 .pic4{
-  background-image: url("/images/04.jpg");
+  background-image: url("images/04.jpg");
 }
 .show1-container > .show1-right > .show1-pic > .show1-text{
   text-align: center;
@@ -94,7 +94,7 @@ ul > li > a{
 }
 /* ----------------- */
 .show2-pic{
-  background-image: url("/images/big-pic.jpg");
+  background-image: url("images/big-pic.jpg");
   max-width: 1200px;
   height: 400px;
   margin: 0 auto 40px;
@@ -111,7 +111,7 @@ ul > li > a{
 }
 .show3-container > .show3-right{
   width: 49%;
-  background-image: url("/images/event.jpg");
+  background-image: url("images/event.jpg");
   height: 520px;
   background-position: center;
   background-size: cover;
@@ -128,13 +128,13 @@ ul > li > a{
   box-shadow: 0px 0px 10px rgba(0,0,0,0.4)
 }
 .pic5{
-  background-image: url("/images/05.jpg");
+  background-image: url("images/05.jpg");
 }
 .pic6{
-  background-image: url("/images/06.jpg");
+  background-image: url("images/06.jpg");
 }
 .pic7{
-  background-image: url("/images/07.png");
+  background-image: url("images/07.png");
   width: 100%;
   height: 230px;
   border-radius: 10px;
