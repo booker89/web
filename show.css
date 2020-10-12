@@ -24,7 +24,7 @@ ul > li > a{
   padding: 0 15px;
 }
 .banner{
-  background-image: url("/images/banner.jpg");
+  background-image: url("images/banner.jpg");
   max-width: 1200px;
   height: 400px;
   margin: 0 auto 40px;
@@ -39,7 +39,7 @@ ul > li > a{
 }
 .show1-container > .show1-left{
   width: 49%;
-  background-image: url("images/event.jpg");
+  background-image: url("images/event01.jpg");
   height: 520px;
   background-position: center;
   background-size: cover;
